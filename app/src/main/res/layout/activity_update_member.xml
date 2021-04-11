@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context="axis.axis21.sanchita.axisapp.Admin.UpdateMember">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:layout_marginTop="50dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/image_member"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:elevation="2dp"
+        app:riv_corner_radius="60dp"
+        app:riv_border_color="@android:color/white"
+        app:riv_border_width="6dp"
+        android:adjustViewBounds="true"
+        android:layout_marginLeft="70dp"/>
+
+    <EditText
+        android:id="@+id/update_position"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_member"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="4dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"
+        android:hint="Position"/>
+
+    <EditText
+        android:id="@+id/update_mail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_position"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="4dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"
+        android:hint="e-mail id"/>
+
+    <EditText
+        android:id="@+id/update_insta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_mail"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="4dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"
+        android:hint="Instagram account link"/>
+
+    <EditText
+        android:id="@+id/update_linkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/update_insta"
+        android:background="@drawable/input_design"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="4dp"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"
+        android:hint="LinkedIn account link"/>
+
+    <Button
+        android:id="@+id/update_member_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/update_linkedin"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Update"
+        android:textColor="@color/colorText"
+        android:textColorHint="@color/colorText"
+        android:textAllCaps="false"
+        android:textSize="30sp" />
+
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

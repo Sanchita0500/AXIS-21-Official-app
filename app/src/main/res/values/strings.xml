@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AXIS</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="axis_about">AXIS is the annual technical festival of VNIT, consisting of a gamut of events, guest lectures, workshops and exhibitions that provide a myriad of opportunities for students to enlighten their bright inquisitive minds. Starting out in the year 2001, AXIS has transformed into Central India’s largest technical festival and is now counted to be amongst the top in the nation. It has since, been strong on its pillars of innovation, creativity and team work. An array of events on the different categories of technical, design, recreation and management, provide to the students an apt atmosphere to gain more knowledge and compete with the best from all over the nation. AXIS has been host to eminent personalities such as Dr APJ Abdul Kalam, Dr A S Kiran Kumar, Nitin Gadkari , Sunita L. Williams and Amish Tripathi and has a footfall of around 20,000 students. We aim to provide a platform to the young engineers to convert the theoretical knowledge to practical innovations. </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

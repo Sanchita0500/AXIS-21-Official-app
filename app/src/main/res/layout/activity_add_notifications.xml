@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context="axis.axis21.sanchita.axisapp.Admin.AddNotifications">
+
+    <TextView
+        android:id="@+id/head_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notifications for the User"
+        android:layout_marginTop="80dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"/>
+
+
+    <EditText
+        android:id="@+id/title_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:layout_below="@+id/head_text"
+        android:layout_marginTop="30dp"
+        android:textSize="30sp"
+        android:padding="6dp"
+        android:background="@drawable/input_design"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/content_notification"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Content"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:layout_below="@id/title_notification"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:padding="6dp"
+        android:background="@drawable/input_design"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <Button
+        android:id="@+id/update_notification_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/content_notification"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:textSize="20sp"
+        android:textAllCaps="false"
+        android:text="Push Notification"
+        android:textColor="@android:color/background_light"/>
+
+</RelativeLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context="axis.axis21.sanchita.axisapp.Admin.AddMember">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/select_member_image"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:cropToPadding="false"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
+
+    <EditText
+        android:id="@+id/name_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:textColorHint="@color/colorText"
+        android:layout_below="@id/select_member_image"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="25dp"
+        android:textSize="20sp"
+        android:background="@drawable/input_design"
+        android:layout_marginLeft="30dp"
+        android:padding="4dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/position_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Position"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:layout_below="@id/name_member"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:padding="4dp"
+        android:background="@drawable/input_design"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"/>
+
+    <EditText
+        android:id="@+id/mail_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/position_member"
+        android:hint="e-mail id"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:background="@drawable/input_design"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:padding="4dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/insta_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mail_member"
+        android:hint="instagram account link"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:background="@drawable/input_design"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:padding="4dp"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:id="@+id/linkedin_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/insta_member"
+        android:hint="linkedin account link"
+        android:textColorHint="@color/colorText"
+        android:textColor="@color/colorText"
+        android:background="@drawable/input_design"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:padding="4dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/add_member_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linkedin_member"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/buttons"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:text="Add"
+        android:textColor="@android:color/background_light"/>
+    </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/feed_frame"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:id="@+id/feed_image"
+        android:layout_margin="2dp"
+        />
+
+    <TextView
+        android:id="@+id/feed_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/ubuntu"
+        android:textAlignment="viewStart"
+        android:textColor="@color/colorText"
+        />
+
+    <TextView
+        android:lineSpacingExtra="2dp"
+        android:maxLines = "4"
+        android:layout_marginTop="-20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        android:padding="14dp"
+        android:id="@+id/feed_content"
+        android:fontFamily="@font/raleway"
+        />
+
+    <TextView
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginTop="-18dp"
+        android:textAlignment="textEnd"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:text="view more"
+        android:fontFamily="@font/raleway"
+        android:textColor="@android:color/white"
+        android:layout_marginEnd="15dp" />
+</LinearLayout>

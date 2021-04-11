@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context="axis.axis21.sanchita.axisapp.Admin.AddBlog">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/title_blog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title"
+                android:textColorHint="@color/colorText"
+                android:padding="3dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorText"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <ImageView
+                android:id="@+id/select_blog_image"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:cropToPadding="false"
+                android:layout_marginLeft="30dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/select_image"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"/>
+
+            <EditText
+                android:id="@+id/author_blog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name of author"
+                android:textColorHint="@color/colorText"
+                android:padding="3dp"
+                android:layout_marginTop="15dp"
+                android:textSize="20sp"
+                android:textColor="@color/colorText"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/date_blog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="@color/colorText"
+                android:hint="Date"
+                android:padding="3dp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
+
+            <EditText
+                android:id="@+id/author_facebook"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Author's facebook account link"
+                android:textColorHint="@color/colorText"
+                android:padding="3dp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/author_instagram"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Author's instagram account link"
+                android:textColorHint="@color/colorText"
+                android:padding="3dp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/author_linkedIn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Author's linkedIn account link"
+                android:textColorHint="@color/colorText"
+                android:textColor="@color/colorText"
+                android:padding="3dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/author_twitter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Author's twitter account link"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/colorText"
+                android:padding="3dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/blog_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Content"
+                android:textColorHint="@color/colorText"
+                android:inputType="textMultiLine"
+                android:padding="3dp"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:lines="10"
+                android:maxLines="50"
+                android:minLines="10"/>
+
+            <Button
+                android:id="@+id/add_blog_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttons"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                android:text="Add"
+                android:textColor="@android:color/background_light"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context="axis.axis21.sanchita.axisapp.Admin.UpdateFeed">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/title_feed_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Title"
+                android:textColorHint="@color/colorText"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="15dp"
+                android:textSize="30sp"
+                android:padding="4dp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <ImageView
+                android:id="@+id/select_feed_image_update"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:cropToPadding="false"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <EditText
+                android:id="@+id/content_feed_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Content"
+                android:textColorHint="@color/colorText"
+                android:textColor="@color/colorText"
+                android:inputType="textMultiLine"
+                android:padding="4dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:lines="4"
+                android:maxLines="50"
+                android:minLines="4"/>
+
+            <EditText
+                android:id="@+id/link_feed_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Link for event registration.."
+                android:textColorHint="@color/colorText"
+                android:textColor="@color/colorText"
+                android:layout_marginTop="15dp"
+                android:padding="4dp"
+                android:textSize="20sp"
+                android:background="@drawable/input_design"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"/>
+
+            <Button
+                android:id="@+id/feed_button_update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/buttons"
+                android:textSize="30sp"
+                android:textAllCaps="false"
+                android:text="Update"
+                android:textColor="@android:color/background_light"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</RelativeLayout>

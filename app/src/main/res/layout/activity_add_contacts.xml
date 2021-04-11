@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context="axis.axis21.sanchita.axisapp.Admin.AddContacts">
+
+    <LinearLayout
+        android:id="@+id/layout_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/input_design"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@color/colorText"
+            android:layout_marginTop="15dp"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            android:textColor="@android:color/background_light"
+            android:textColorHint="@color/colorText"
+            android:padding="4dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:textColorHint="@color/colorText"
+            android:textColor="@android:color/background_light"
+            android:layout_marginTop="15dp"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_contact_info_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons"
+        android:layout_below="@id/layout_contacts"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:text="Add"
+        android:textSize="30sp"
+        android:textColor="@android:color/background_light"
+        android:textAllCaps="false"/>
+</RelativeLayout>

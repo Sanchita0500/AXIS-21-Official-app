@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_frame"
+    tools:context="axis.axis21.sanchita.axisapp.Admin.AddInfo">
+
+    <TextView
+        android:id="@+id/gallery_images"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="40dp"
+        android:text="Add Images to Gallery"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/blog"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:text="Blogs"
+        android:layout_below="@id/gallery_images"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/event_categories"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:text="Events"
+        android:layout_below="@+id/blog"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/display_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:text="Notifications"
+        android:layout_below="@+id/event_categories"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+
+    <TextView
+        android:id="@+id/promo_image"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:text="Promo Image"
+        android:layout_below="@id/display_notifications"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/sponsors_tile"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:text="Sponsors"
+        android:layout_below="@+id/promo_image"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/teams"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:text="Teams"
+        android:layout_below="@+id/sponsors_tile"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+
+    <TextView
+        android:id="@+id/feed"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:text="Update Feed"
+        android:layout_below="@+id/teams"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/workshop"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:layout_marginTop="20dp"
+        android:text="Workshops"
+        android:layout_below="@+id/feed"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        android:text="Logout"
+        android:background="@drawable/buttons"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textAllCaps="false"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"/>
+
+</RelativeLayout>

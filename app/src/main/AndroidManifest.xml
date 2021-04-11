@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="axis.axis21.sanchita.axisapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AxisApp">
+        <activity android:name="axis.axis21.sanchita.axisapp.Share"></activity>
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.UpdateBlogs" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddBlog" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.BlogsList" />
+        <activity android:name="axis.axis21.sanchita.axisapp.BlogDetails" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Blogs" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.UpdateWorkshops" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.WorkshopsList" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.UpdateFeed" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.Feed" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.UpdateContacts" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.UpdateEvents" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AdminSideEvents" />
+        <activity android:name="axis.axis21.sanchita.axisapp.MemberPage" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Contact" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddContacts" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddWorkshop" />
+        <activity android:name="axis.axis21.sanchita.axisapp.WorkshopDetails" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Workshops" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.UpdateMember" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddMember" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddTeamMember" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddTeams" />
+        <activity android:name="axis.axis21.sanchita.axisapp.TeamDetails" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddSponsors" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Sponsors" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddEvents" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddEventTile" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddEventCategories" />
+        <activity android:name="axis.axis21.sanchita.axisapp.EventSection.EventDetails" />
+        <activity android:name="axis.axis21.sanchita.axisapp.EventSection.EventsSection" />
+        <activity android:name="axis.axis21.sanchita.axisapp.EventSection.Events" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddNotifications" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddGalleryImages" />
+        <activity android:name="axis.axis21.sanchita.axisapp.GalleryActivity" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddFeed" />
+        <activity android:name="axis.axis21.sanchita.axisapp.DetailFeed" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Notifications" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddPromoImage" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Admin.AddInfo" />
+        <activity android:name="axis.axis21.sanchita.axisapp.LoginActivity" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.AxisApp.NoActionBar" />
+        <activity android:name="axis.axis21.sanchita.axisapp.SplashStart" />
+        <activity android:name="axis.axis21.sanchita.axisapp.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="axis.axis21.sanchita.axisapp.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

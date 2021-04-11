@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    tools:context="axis.axis21.sanchita.axisapp.DetailFeed">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:descendantFocusability="afterDescendants"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/image_detail_feed"
+                android:adjustViewBounds="true"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:fontFamily="@font/ubuntu_bold"
+                android:textSize="18sp"
+                android:padding="15dp"
+                android:textStyle="bold"
+                android:id="@+id/title_detail_feed"
+                />
+
+            <TextView
+                android:padding="10dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="-15dp"
+                android:layout_width="match_parent"
+                android:textColor="@color/colorText"
+                android:lineSpacingExtra="4dp"
+                android:fontFamily="@font/raleway"
+                android:layout_height="wrap_content"
+                android:id="@+id/content_detail_feed"
+                />
+
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/feed_button"
+        android:padding="10dp"
+        android:layout_gravity="bottom"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/colorText"
+        android:text="Register Now!"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

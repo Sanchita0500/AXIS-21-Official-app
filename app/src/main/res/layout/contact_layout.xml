@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary">
+
+    <LinearLayout
+        android:id="@+id/layout_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:background="@drawable/input_design"
+        android:layout_marginTop="15dp">
+
+        <EditText
+            android:id="@+id/name_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="name"
+            android:textColorHint="@color/colorText"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="15dp"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/phone_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number"
+            android:textColorHint="@color/colorText"
+            android:inputType="phone"
+            android:textColor="@color/colorText"
+            android:padding="4dp"
+            android:layout_marginTop="15dp"
+            android:textSize="18sp"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
+
+        <EditText
+            android:id="@+id/mail_update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:textColorHint="@color/colorText"
+            android:textColor="@color/colorText"
+            android:layout_marginTop="15dp"
+            android:padding="4dp"
+            android:textSize="18sp"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/input_design"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+</RelativeLayout>

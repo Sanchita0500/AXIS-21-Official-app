@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_frame"
+    tools:context="axis.axis21.sanchita.axisapp.Admin.AddTeams">
+
+    <TextView
+        android:id="@+id/core_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="Core/Treasurer"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/app_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="App/Web"
+        android:layout_below="@id/core_update"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/publicity_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Publicity"
+        android:layout_below="@id/app_update"
+        android:textSize="40sp"
+        android:textAlignment="center"
+        android:background="@drawable/display_text"
+        android:textColor="@android:color/background_light"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorSecondary"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    tools:context="axis.axis21.sanchita.axisapp.BlogDetails">
+
+    <LinearLayout
+        android:gravity="center"
+        android:elevation="4dp"
+        android:background="@drawable/appbar_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <LinearLayout
+            android:onClick="goBack"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:onClick="goBack"
+                android:layout_margin="5dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@mipmap/baseline_arrow_back_white_24"
+                android:background="@android:color/transparent"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/b_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="14dp"
+            android:text="Blog Name"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Date : "
+                        android:textColor="@android:color/white"
+                        android:textSize="22sp"
+                        android:padding="4dp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:id="@+id/date"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorText"
+                        android:textSize="22sp"
+                        android:padding="4dp"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="By : "
+                        android:textColor="@android:color/white"
+                        android:textSize="22sp"
+                        android:padding="4dp"
+                        android:layout_marginLeft="5dp"/>
+
+                    <TextView
+                        android:id="@+id/by"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorText"
+                        android:textSize="22sp"
+                        android:padding="4dp"
+                        />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginBottom="25dp"
+                    android:id="@+id/content_blog"
+                    android:textSize="16sp"
+                    android:textColor="@color/colorText"
+                    android:lineSpacingExtra="5dp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/appbar_background"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Connect with Author : "
+            android:textColor="@android:color/white"
+            android:textSize="15sp"
+            android:padding="6dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:padding="3dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                >
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:onClick="openSocial"
+                    android:id="@+id/facebook"
+                    android:scaleType="fitXY"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:riv_corner_radius="50dp"
+                    android:background="@drawable/circular_button"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/fcb" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="3dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:onClick="openSocial"
+                    android:id="@+id/instagram"
+                    android:scaleType="fitXY"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:riv_corner_radius="50dp"
+                    android:background="@drawable/circular_button"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/instagram_f" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="3dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:onClick="openSocial"
+                    android:id="@+id/linkedin"
+                    android:scaleType="fitXY"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:riv_corner_radius="50dp"
+                    android:background="@drawable/circular_button"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/linkedin" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:padding="3dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:onClick="openSocial"
+                    android:id="@+id/twitter"
+                    android:scaleType="fitXY"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    app:riv_corner_radius="50dp"
+                    android:elevation="2dp"
+                    android:background="@drawable/circular_button"
+                    android:tint="@color/colorPrimaryDark"
+                    android:src="@drawable/twitter" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
